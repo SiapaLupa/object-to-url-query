@@ -1,0 +1,1 @@
+export const queryToObject = (object: Record<string, any>) => new URLSearchParams(object).toString()
