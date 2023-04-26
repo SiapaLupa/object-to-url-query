@@ -1,1 +1,1 @@
-export const queryToObject = (object: Record<string, any>) => new URLSearchParams(object).toString()
+export const objectToQuery = (object: Record<string, any>) => new URLSearchParams(object).toString()
